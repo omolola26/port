@@ -16,8 +16,8 @@ function PortfolioThree(){
            <img className="port_img" src={Three} alt="three"/>
            </div> 
           <div className="port_button">
-           <button type="submit"><a href="https://suspicious-torvalds-50b5fd.netlify.app/" target="_blank" className="imgIcon">LIFE</a></button>
-           <button type="submit" className="life"><a href="https://github.com/omolola26/spicy" target="_blank"><Code/></a></button>
+           <button type="submit"><a href="https://suspicious-torvalds-50b5fd.netlify.app/" rel="noreferrer" target="_blank" className="imgIcon">LIFE</a></button>
+           <button type="submit" className="life"><a href="https://github.com/omolola26/spicy" rel="noreferrer" target="_blank"><Code/></a></button>
            </div>
           </div>
           </div>

@@ -18,8 +18,8 @@ const PortfolioTwo = () => {
            <img className="port_img" src={two} alt="two"/>
            </div> 
            <div className="port_button">
-           <button type="submit"><a href="https://stupefied-shockley-6302ad.netlify.app" target="_blank" className="imgIcon">LIFE</a></button>
-           <button type="submit" className="life"><a href="https://github.com/omolola26/e-commerce" target="_blank"><Code/></a></button>
+           <button type="submit"><a href="https://stupefied-shockley-6302ad.netlify.app" rel="noreferrer"target="_blank" className="imgIcon">LIFE</a></button>
+           <button type="submit" className="life"><a href="https://github.com/omolola26/e-commerce" rel="noreferrer" target="_blank"><Code/></a></button>
            </div>
           </div>
 
