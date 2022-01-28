@@ -1,0 +1,38 @@
+    .mission{
+    background-color:#000;
+    width: 100%;
+    max-width: 100%;
+    height: 65vh;
+    text-align: center;
+    }
+    .missionT{
+        max-width: 100%;
+        width: 100%;
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .mission h1{
+        color:#1ed6bb;
+        font-weight:200;
+        font-size: 85px;
+    }
+
+    @media(max-width:576px) {
+        .missionT h1{
+font-size:75px;
+        }
+    }
+
+    @media(max-width:575px){
+.missionT{
+    font-size: 60px;
+}
+    }
+
+    @media(max-width:500px){
+        .missionT{
+            font-size: 55px;
+        }
+            }

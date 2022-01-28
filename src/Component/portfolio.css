@@ -1,0 +1,252 @@
+.Portcontainer{
+    background-color:#fff;
+    width: 100%;
+    height: 100vh;
+    font-family: "Poppins";
+    max-width: 100%;
+}
+
+
+.port{
+    display:flex;
+    justify-content:space-evenly;
+    height:100%;
+    align-items:center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.portone{
+  max-width: 25%; 
+  height: 50%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portone h1{
+font-size:25px;
+text-align: left;
+margin: 0;
+padding: 0;
+}
+
+.portone p{
+font-size:22px;
+text-align: left;
+margin-top:20px;
+}
+
+.oneImg{
+height:50%;
+}
+
+.folio{
+    max-width: 55%;
+}
+
+.port_img{
+    max-width: 600px;
+}
+ 
+.port_button{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.port_button button{
+    width:70px;
+    height:40px;
+    color:#fff;
+    background-color:#1ed6bb;
+    border-radius:5px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.port_button .life{
+    width:70px;
+    height:40px;
+    background-color:#000;
+    border-radius:5px;
+    border: none;
+    outline: none;
+}
+
+.port_button .life a{
+    color:#fff !important;
+}
+
+.port_button  a{
+    text-decoration: none;
+}
+
+.port_button .imgIcon {
+    color:#fff !important;
+}
+
+
+
+.img{
+    width: 700px;
+    margin-left: 300px;
+}
+@media(max-width:768px) {
+    .port_img{
+        max-width: 648px;
+    }
+
+
+    .porter{
+        flex-direction: column;
+        height: 83%;
+        text-align: center;
+        }
+        .portone {
+            max-width: 55%;
+              }
+              .portone p{
+                  width: 300px;
+                  font-size:20px;
+                  text-align: center;
+              }
+            
+              .portone h1{
+                  text-align: center;
+              }
+
+}
+@media(max-width:576px) {
+  .porter{
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  }
+
+  .portone {
+max-width: 55%;
+margin-top: 50px;
+  }
+  .portone p{
+      width: 300px;
+      font-size:20px;
+      text-align: center;
+  }
+
+  .portone h1{
+      text-align: center;
+  }
+
+  .folio .port_img{
+      max-width: 550px;
+  }
+  
+}
+
+@media(max-width:962px){
+    .port_img{
+        max-width: 630px;
+    } 
+
+    .portone {
+        max-width: 50%;
+          }
+
+          .porter{
+            flex-direction: column;
+            height: 83%;
+            text-align: center;
+            }
+            .portone {
+                max-width: 55%;
+                  }
+                  .portone p{
+                      width: 300px;
+                      font-size:20px;
+                      text-align: center;
+                  }
+                
+                  .portone h1{
+                      text-align: center;
+                  }
+}
+
+@media(max-width:960px){
+    .port_img{
+        max-width: 648px;
+    }
+
+
+    .porter{
+        flex-direction: column;
+        height: 83%;
+        text-align: center;
+        }
+        .portone {
+            max-width: 55%;
+              }
+              .portone p{
+                  width: 300px;
+                  font-size:20px;
+                  text-align: center;
+              }
+            
+              .portone h1{
+                  text-align: center;
+              }
+}
+
+
+
+@media(max-width:640px){
+    .port_img{
+        max-width: 608px;
+    }
+
+
+    .porter{
+        flex-direction: column;
+        height: 83%;
+        text-align: center;
+        }
+        .portone {
+            max-width: 55%;
+              }
+              .portone p{
+                  width: 300px;
+                  font-size:20px;
+                  text-align: center;
+              }
+            
+              .portone h1{
+                  text-align: center;
+              }
+}
+
+@media(max-width:630px){
+    .port_img{
+        max-width: 550px;
+    }
+
+
+    .porter{
+        flex-direction: column;
+        height: 83%;
+        text-align: center;
+        }
+        .portone {
+            max-width: 55%;
+              }
+              .portone p{
+                  width: 300px;
+                  font-size:20px;
+                  text-align: center;
+              }
+            
+              .portone h1{
+                  text-align: center;
+              }
+}
