@@ -2,8 +2,14 @@
         font-family: "Poppins"; 
         background-color:#000;
         width: 100%;
-        height: 70vh; 
+        height: 100vh; 
         margin-top: -24px;
+        
+}
+
+.row a{
+    text-decoration: none;
+    color: #fff;
 }
 
 

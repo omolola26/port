@@ -41,6 +41,14 @@ import  { useState } from "react";
                                 </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <div className="info">
+                                <div className="head">Linkedin</div>
+                                <div className="sub-title"><a href="https://www.linkedin.com/in/omolola2/">Link</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
