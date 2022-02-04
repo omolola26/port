@@ -172,7 +172,7 @@ max-width:200px;
 
  @media(min-width:960px){
    .home_container{
-    margin-top:15%; 
+    padding-top:15%; 
    }
   .nameDetails h1{
     font-size: 80px;
