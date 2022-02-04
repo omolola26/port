@@ -8,6 +8,7 @@ import PortfolioThree from './Component/PortfolioThree';
 import PortfolioFour from './Component/PortfolioFour';
 import PortfolioFive from './Component/PortfolioFive';
 import Footer from './Footer';
+import PortfolioSix from './Component/PortfolioSix';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Home/>
       <About/>
       <Mission/>
+      <PortfolioSix/>
       <PortfolioOne/>
       <PortfolioTwo/>
       <PortfolioThree/>

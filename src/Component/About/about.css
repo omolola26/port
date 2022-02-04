@@ -1,7 +1,7 @@
 .about{
     background-color:#fff;
     /* display: flex; */
-    height: 100vh;
+    height: 100%;
     width:100%;
 }
 
@@ -60,7 +60,6 @@ list-style: none;
 @media(max-width:576px){
     .aboutAll{
         flex-direction: column;            
-        height:140%;
             }
 
    
@@ -74,7 +73,7 @@ list-style: none;
 
     .intro{
         width:95%;
-        height:100%;
+        /* height:100%; */
     }
 
     .intro > p{
@@ -89,10 +88,20 @@ list-style: none;
 
 @media(max-width:960px){
     .aboutAll{
-        flex-direction: column;            
-        height:140%;
+        
+        flex-direction: column;   
+        /* justify-content:center;
+        align-items:center;          */
             }
 
+             ul li{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+            }
+            .header{
+                align-items: center;
+            }
    
     .about_me h2{
         font-size:3rem;
@@ -103,9 +112,11 @@ list-style: none;
     }
 
     .intro{
-        width:95%;
+        width:100%;
         height:100%;
+        
     }
+
 
     .intro > p{
         text-align:center;
@@ -121,7 +132,6 @@ list-style: none;
 @media(max-width:768px){
     .aboutAll{
         flex-direction: column;            
-        height:140%;
             }
 
    

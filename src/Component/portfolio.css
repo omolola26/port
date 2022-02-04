@@ -1,7 +1,7 @@
 .Portcontainer{
     background-color:#fff;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     font-family: "Poppins";
     max-width: 100%;
 }
@@ -14,6 +14,7 @@
     align-items:center;
     flex-direction: row;
     width: 100%;
+    margin: 100px 0;
 }
 
 .portone{
@@ -102,7 +103,7 @@ align-items:center;
 
     .porter{
         flex-direction: column;
-        height: 83%;
+        height: 100%;
         text-align: center;
         }
         .portone {
@@ -119,6 +120,61 @@ align-items:center;
               }
 
 }
+
+
+@media(max-width:538px) {
+    .port_img{
+        max-width: 508px;
+    }
+
+
+    .porter{
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        }
+        .portone {
+            max-width: 55%;
+              }
+              .portone p{
+                  width: 300px;
+                  font-size:20px;
+                  text-align: center;
+              }
+            
+              .portone h1{
+                  text-align: center;
+              }
+
+}
+
+
+@media(max-width:558px) {
+    .port_img{
+        max-width: 548px;
+    }
+
+
+    .porter{
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        }
+        .portone {
+            max-width: 55%;
+              }
+              .portone p{
+                  width: 300px;
+                  font-size:20px;
+                  text-align: center;
+              }
+            
+              .portone h1{
+                  text-align: center;
+              }
+
+}
+
 @media(max-width:576px) {
   .porter{
   flex-direction: column;
@@ -146,6 +202,33 @@ margin-top: 50px;
   
 }
 
+@media(max-width:630px){
+    .port_img{
+        max-width: 550px;
+    }
+
+
+    .porter{
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        }
+        .portone {
+            max-width: 55%;
+              }
+              .portone p{
+                  width: 300px;
+                  font-size:20px;
+                  text-align: center;
+              }
+            
+              .portone h1{
+                  text-align: center;
+              }
+
+              
+}
+
 @media(max-width:962px){
     .port_img{
         max-width: 630px;
@@ -157,7 +240,7 @@ margin-top: 50px;
 
           .porter{
             flex-direction: column;
-            height: 83%;
+            height: 100%;
             text-align: center;
             }
             .portone {
@@ -182,7 +265,7 @@ margin-top: 50px;
 
     .porter{
         flex-direction: column;
-        height: 83%;
+        height: 100%;
         text-align: center;
         }
         .portone {
@@ -209,7 +292,7 @@ margin-top: 50px;
 
     .porter{
         flex-direction: column;
-        height: 83%;
+        height: 100%;
         text-align: center;
         }
         .portone {
