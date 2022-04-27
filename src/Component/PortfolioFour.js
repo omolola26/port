@@ -18,7 +18,7 @@ const PortfolioFour = () => {
            <img className="port_img" src={Four} alt="four"/>
            </div> 
            <div className="port_button">
-           <button type="submit"><a href="https://jovial-allen-84cd22.netlify.app" rel="noreferrer" target="_blank" className="imgIcon">LIVE</a></button>
+           <button type="submit"><a href="https://jovial-allen-84cd22.netlify.app" rel="noreferrer" target="_blank" className="imgIcon">LIFE</a></button>
            <button type="submit" className="life"><a href="https://github.com/omolola26/Nikeshoes" rel="noreferrer" target="_blank"><Code/></a></button>
            </div>
           </div>
